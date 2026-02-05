@@ -8,7 +8,7 @@ import os
 st.set_page_config(page_title="File Encryption Tool", page_icon="🔐")
 st.title("🔐 File Encryption Tool")
 st.markdown("**أداة آمنة لتشفير وفك تشفير الملفات باستخدام Fernet (AES-based).**")
-st.markdown("**by anis zidane**")  # إضافة اسمك هنا
+st.markdown("**by anis zidane**")  
 
 # دالة توليد مفتاح من كلمة مرور
 def generate_key(password: str, salt: bytes = None):
@@ -93,4 +93,4 @@ st.markdown("---")
 st.markdown("**نصائح الأمان:**")
 st.markdown("- استخدم كلمات مرور قوية (مزيج من أحرف، أرقام، رموز).")
 st.markdown("- لا تنس كلمة المرور – لا يمكن استرجاعها.")
-st.markdown("- هذا لأغراض تعليمية فقط.")
+st.markdown("thank you")
